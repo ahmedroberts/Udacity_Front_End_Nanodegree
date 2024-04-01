@@ -10,38 +10,25 @@ img {
     max-height: 600px;
 }
 
-
-main {
-  /* background-color: cornsilk; */
-  margin: 0 auto;
-  padding: 1rem;
-  max-width: 60rem;
+header,
+main,
+footer {
+    border: 2px solid hotpink;
 }
+
 
 header {
     background-image: url("assets/Killer_B_Writing.png");
     background-position: center;
-    background-size: 200% auto;
-    display: grid;
+    background-size: 100% auto;
 }
-
-footer {
-  background-image: url("assets/Killer_B_Writing.png");
-  background-position: center;
-  background-size: 200% auto;
-  display: grid;
-}
-/* https://www.deviantart.com/lucianovecchio/gallery */
   
-  .top_box,
-  .bottom_box {
-    padding:  30px;
+  .top_box {
+    margin: 30px;
     background-color: #ffffff;
     border: 4px solid rgb(0, 0, 0);
-    margin: 1rem auto;
-    opacity: 0.8;
+    opacity: 0.6;
     text-align: center;
-    width: 60rem;
   }
   
 .top_box h1 {
@@ -52,7 +39,12 @@ footer {
           0px 4px 7px rgba(234, 232, 224, 0.7);
 
 }
-
+  
+  .top_box p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
 
 a {
     box-shadow: inset 0 0 0 0 #54b3d6;
@@ -69,8 +61,8 @@ a {
   /* Presentational styles */
   a {
     color: #54b3d6;
-    /* font-family: 'Poppins', sans-serif; */
-    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
     font-weight: 700;
     line-height: 1.5;
     text-decoration: none;
@@ -82,16 +74,22 @@ a {
     margin: 0 auto;
     padding: 1rem;
     width: 60rem;
+    /* border: 2px solid red; */
 }
 
-  
-.hero_section p {
-  margin: 5%;
-  font-weight: bold;
-  color: #000000;
+.hero {
+    background-image: url("assets/Killer_B_Writing.png");
+    background-position: center;
+    background-size: 100% auto;
+    border: 3px solid black;
+    color: #cfc547;
+    min-height: 100px;
+    min-width: 200px;
+    padding: 1rem;
+    text-align: center;
 }
 
-.hero_section h1 {
+.hero h1 {
     font-size: 2.5em;
     text-shadow: 3px 0px 7px rgba(27, 21, 81, 0.9), 
           -3px 0px 7px rgba(81, 40, 21, 0.8), 
@@ -99,42 +97,21 @@ a {
 
 }
 
-.super_ol {
-  /* background-color: #ff00ff;
-  border: 1px solid darkolivegreen; */
-  max-width: 44rem;
-}
-
 .super_li {
     margin-top: .25em;
     padding: .5em;
-    border: 1px solid greenyellow;
+    border: 2px solid greenyellow;
     background-color: white;
 }
 
 ul ::marker {
-    color: blueviolet;
+    color: red;
     font-size: 1.5rem;
 }
 
 .super_li img {
-  
-}
-
-.hero_info {
-  display: flex;
-  gap: .5em;
-}
-
-.hero_info div {
-  /* border: 1px dotted sienna; */
-}
-.hero_info img {
-  max-height: 6rem;
-}
-.hero_info div p{
-  /* border: 1px dotted sienna; */
-  margin: 0;
+    margin: .5em, .75em, 1em, 1.25em;
+    border: 1px solid blueviolet;
 }
 /* https://www.codesdope.com/blog/article/25-creative-css3-text-shadow-effects-you-cant-miss/ */
 
