@@ -5,6 +5,11 @@ body {
     
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 img {
     max-width: 500px;
     max-height: 600px;
@@ -12,7 +17,7 @@ img {
 
 
 main {
-  /* background-color: cornsilk; */
+  background-color: cornsilk;
   margin: 0 auto;
   padding: 1rem;
   max-width: 60rem;
@@ -121,7 +126,8 @@ ul ::marker {
   
 }
 
-.hero_info {
+.hero_info,
+.bottom_box {
   display: flex;
   gap: .5em;
 }
@@ -129,13 +135,17 @@ ul ::marker {
 .hero_info div {
   /* border: 1px dotted sienna; */
 }
-.hero_info img {
+.hero_info img,
+.bottom_box img {
   max-height: 6rem;
 }
 .hero_info div p{
   /* border: 1px dotted sienna; */
   margin: 0;
 }
+
+
+
 /* https://www.codesdope.com/blog/article/25-creative-css3-text-shadow-effects-you-cant-miss/ */
 
 /* SCSS Gradient 
