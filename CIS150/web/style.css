@@ -88,20 +88,28 @@ a {
     padding: 1rem;
     width: 60rem;
 }
-
+.hero_section {
+	display: flex;
+	gap: 1em;
+}
   
 .hero_section p {
-  margin: 5%;
   font-weight: bold;
-  color: #000000;
+  color: #2b303a;
+  font-size: 1.25em;
 }
 
 .hero_section h1 {
+	color: #fff;
     font-size: 2.5em;
     text-shadow: 3px 0px 7px rgba(27, 21, 81, 0.9), 
           -3px 0px 7px rgba(81, 40, 21, 0.8), 
           0px 4px 7px rgba(234, 232, 224, 0.7);
 
+}
+
+.hero_section img {
+	max-height: 300px;
 }
 
 .super_ol {
