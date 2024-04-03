@@ -55,7 +55,6 @@ footer {
     text-shadow: 3px 0px 7px rgba(27, 21, 81, 0.9), 
           -3px 0px 7px rgba(81, 40, 21, 0.8), 
           0px 4px 7px rgba(234, 232, 224, 0.7);
-
 }
 
 
@@ -66,15 +65,14 @@ a {
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
   }
+
   a:hover {
     color: #fff;
     box-shadow: inset 40rem 0 0 0 #54b3d6;;
   }
-  
-  /* Presentational styles */
+
   a {
     color: #54b3d6;
-    /* font-family: 'Poppins', sans-serif; */
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5;
@@ -88,6 +86,7 @@ a {
     padding: 1rem;
     width: 60rem;
 }
+
 .hero_section {
 	display: flex;
 	gap: 1em;
@@ -105,7 +104,6 @@ a {
     text-shadow: 3px 0px 7px rgba(27, 21, 81, 0.9), 
           -3px 0px 7px rgba(81, 40, 21, 0.8), 
           0px 4px 7px rgba(234, 232, 224, 0.7);
-
 }
 
 .hero_section img {
@@ -113,8 +111,6 @@ a {
 }
 
 .super_ol {
-  /* background-color: #ff00ff;
-  border: 1px solid darkolivegreen; */
   max-width: 44rem;
 }
 
@@ -130,29 +126,16 @@ ul ::marker {
     font-size: 1.5rem;
 }
 
-.super_li img {
-  
-}
-
 .hero_info,
 .bottom_box {
   display: flex;
   gap: .5em;
 }
 
-.hero_info div {
-  /* border: 1px dotted sienna; */
-}
 .hero_info img,
 .bottom_box img {
   max-height: 6rem;
 }
-.hero_info div p{
-  /* border: 1px dotted sienna; */
-  margin: 0;
-}
-
-
 
 /* https://www.codesdope.com/blog/article/25-creative-css3-text-shadow-effects-you-cant-miss/ */
 
@@ -187,4 +170,4 @@ $gradient-radial: radial-gradient(#3e4e50ff, #facfadff, #f8bd7fff, #f5ac72ff, #f
 --fawn: #f8bd7fff;
 --sandy-brown: #f5ac72ff;
 --sandy-brown-2: #f2aa7eff;
-
+*/
