@@ -1,24 +1,3 @@
-/*
-/* CSS HEX 
---prussian-blue: #003049ff;
---fire-engine-red: #d62828ff;
---orange-wheel: #f77f00ff;
---xanthous: #fcbf49ff;
---vanilla: #eae2b7ff;
-
-/* SCSS Gradient 
-$gradient-top: linear-gradient(0deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-right: linear-gradient(90deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-bottom: linear-gradient(180deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-left: linear-gradient(270deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-top-right: linear-gradient(45deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-bottom-right: linear-gradient(135deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-top-left: linear-gradient(225deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-bottom-left: linear-gradient(315deg, #003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-$gradient-radial: radial-gradient(#003049ff, #d62828ff, #f77f00ff, #fcbf49ff, #eae2b7ff);
-
-*/
-
 body, p {
   color: #003049;
   padding: 0;
@@ -94,7 +73,6 @@ a {
   line-height: 2;
   text-decoration: none;
 }
-/* https://css-tricks.com/css-link-hover-effects/ */
 
 .hero_section {
   color: #FCBF49;
