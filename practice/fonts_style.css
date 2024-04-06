@@ -1,0 +1,62 @@
+h1 {
+  color:goldenrod;
+  font-family: Impact, "Courier New", Courier, monospace;
+}
+h2 {
+  font-size: 48pt;
+}
+
+p {
+  font-family: Times, "Times New Roman", serif;
+  text-align: justify;
+}
+.box1 {
+  border: 3px solid gold;
+  padding: 1.5em;
+  margin: 0.5em;
+  width: 80%;
+}
+.box2 {
+  border: 3px solid cornflowerblue;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 20px;
+  height: 20px;
+}
+.get_it {
+  color: coral;
+}
+.got_it {
+  font-size: 18pt;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+.good_stuff {
+  color:palevioletred;
+  font: bold 14pt Georgia, serif;
+}
+
+.fancy {
+  color:lightseagreen;
+  font: small-caps bold 24px Courier;
+}
+.fonts_box {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Style ~ Variant ~ Weight ~ Size | Line-Height ~ Family */
+.fonts_box h1 {
+  /* font-style: italic;
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 28pt; */
+  font: italic 28pt Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+
+}
+
+.fonts_box p{
+  /* font-family: Consolas, "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: 16pt; */
+  font: bold 16pt Consolas, "Courier New", Courier, monospace;
+}
