@@ -1,10 +1,54 @@
+.square {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #c3c3c3;
+  display: flex;
+}
+
+.box9 {
+  padding: 10px;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#col-rev {
+  flex-direction: column-reverse;
+}
+
+#row-rev {
+  flex-direction: row-reverse;
+}
+
+.red {
+  background-color: #ff3939;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+
+/* Flex Box | Flexible Box Layout Module */
+
 .checkerboard {
   border: 5px solid darkred;
   width: 200px;
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-top: 20px;
 }
+
 .lightbox {
   height: 100px;
   width: 100px;
@@ -18,12 +62,14 @@
 
 
 .container1 {
-  width: 200px;
+  width: 90%;
+  margin: 20px auto;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: lightcyan;
-  min-height: 80vh;
+  min-height: 200px;
   border: 5px solid peru;
   padding: 2px;
 }
@@ -35,16 +81,4 @@
   font-size: 30px;
   font-weight: bold;
   font-family: sans-serif;
-}
-
-.red {
-  background-color: red;
-}
-
-.green {
-  background-color: green;
-}
-
-.yellow {
-  background-color: yellow;
 }
