@@ -1,0 +1,50 @@
+.checkerboard {
+  border: 5px solid darkred;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+.lightbox {
+  height: 100px;
+  width: 100px;
+  background-color: coral;
+}
+.darkbox {
+  height: 100px;
+  width: 100px;
+  background-color: darkred;
+}
+
+
+.container1 {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: lightcyan;
+  min-height: 80vh;
+  border: 5px solid peru;
+  padding: 2px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
