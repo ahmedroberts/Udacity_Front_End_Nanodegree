@@ -1,0 +1,89 @@
+/* Ahmed O Roberts 
+   April 2024      */
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    #1810ab,
+    #47a6d2,
+    #5887d7,
+    #4930a5,
+    #1ea297,
+    #3c12e6
+    );
+  background-size: 300%;
+  animation: animate-bg 10s infinite alternate;
+}
+
+@keyframes animate-bg {
+  0% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}
+
+h3 {
+  color: #1810ab;
+  border: 1px solid #47a6d2;
+  padding: 10px;
+  border-radius: 10px;
+  opacity: .8;
+}
+
+img {
+  border: 1px solid #1810ab;
+  margin-bottom: 5px;
+}
+.card-holder {
+  border: 1px solid #1810ab;
+  margin-top: 30px;
+  margin-inline: auto;
+  width: 300px;
+  box-shadow: 5px 5px #5887d7;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: white;
+  opacity: .9;
+}
+.card-holder > h3 {
+  font-size: 1.5em;
+}
+
+.card-holder > img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card-info {
+  border: 1px solid #47a6d2;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  max-width: 280px;
+}
+
+.interesting-fact {
+  font-style: italic;
+  margin-top: 10px;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+li > span {
+  color: #1810ab;
+  font-weight: bold;
+}
