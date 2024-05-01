@@ -1,6 +1,10 @@
 
     /* create grid in container below */
     .container{
+      display: grid;
+      grid-template-columns: auto auto;
+      grid-template-rows: 190px 190px 250px;
+      gap: 5px;
       background-color: rgb(222, 222, 222);
       margin-bottom: 3rem;
     }
