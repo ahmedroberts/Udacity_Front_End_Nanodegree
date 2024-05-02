@@ -9,21 +9,32 @@
     />
 
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #0A0A0A;
+      color: #fffff8;
+    }
   .container{
     /* Step 1: Set display to grid */
       display:grid;
    /* Step 2: setup rows amd columns */
+      grid-template-columns: repeat(4, 100px);
       grid-template-columns: 300px 300px 300px;
       grid-template-rows: 250px 600px;
       grid-template-areas: 
       "hd hd hd hd hd hd hd hd"
       "sd sd sd main main main main main"
       "ft ft ft ft ft ft ft ft";
-      border: 2px solid yellow;
+      border: 2px solid #9F9F9F;
   }
   .box{
-    border: 1px solid red;
-    background: #F8FA9D;
+    border: 1px solid ;
+    background: #2a2a08;
+    padding: 1rem;
     }
   .header{
     grid-area:hd;
