@@ -63,15 +63,6 @@ a:hover {
   box-shadow: inset 40rem 0 0 0 #F77F00;
 }
 
-.bottom_box {
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-  background-color:#EAE2B7;
-  min-width: 90%;
-  padding: 1rem;
-}
-
 @media (max-width: 1000px) {
   .bottom_box {
     display:flex;
