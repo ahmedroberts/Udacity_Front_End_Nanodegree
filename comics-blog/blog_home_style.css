@@ -1,5 +1,10 @@
 @import url(blog_main_style.css);
 @import url(blog_header_style.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+/*
+https://coolors.co/003049-f77f00-d62828-eae2b7-d4e4bc
+*/
 
 main img {
   border-radius: 1rem;
@@ -56,8 +61,6 @@ main img {
   padding-left: 2rem;
 }
 .favorite_sites li {
-  /* width: 100%;
-  border: 2px dashed #003049; */
   list-style: none;
 }
 

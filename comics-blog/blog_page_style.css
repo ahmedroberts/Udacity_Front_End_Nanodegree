@@ -1,2 +1,79 @@
 @import url(blog_main_style.css);
 @import url(blog_header_style.css);
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+/*
+https://coolors.co/003049-f77f00-d62828-eae2b7-d4e4bc
+*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px dotted purple; */
+  border: #F77F00;
+  color: 2px dotted #003049;
+  /* background-color: #EAE2B7; */
+}
+
+blockquote {
+  font-family: 'Special Elite', cursive;
+  position: relative;
+  padding-left: 3rem;
+  /* width: 90%; */
+  border-left: 3px solid #D62828;;
+}
+
+cite {
+  line-height: 2rem;
+  text-align: left;
+  padding-left: 3rem;
+  /* width: 90%; */
+}
+
+.author_info {
+  display: grid;
+  /* width: 90%; */
+  grid-template-columns: 7rem auto;
+  /* background-color: lightcyan; */
+  /* border: 2px dashed salmon; */
+}
+
+.author_info img {
+  width: 5rem;
+  border-radius: 50%;
+  grid-row: span 2;
+  order: -1;
+  margin: 1rem;
+}
+
+.breadcrumbs {
+  line-height: 2rem;
+  /* width: 100%; */
+  /* background-color: #D4E4BC; */
+  /* background-color: aquamarine;
+  border: 2px dashed slateblue; */
+}
+
+.blog_title {
+  /* background-color: #F6F5Ae; */
+  text-align: center;
+  /* width: 100%; */
+}
+
+.quote1 {
+  /* background-color: #F6F5Ae; */
+  /* width: 85%; */
+}
+
+img.blog_feature {
+  width: 50rem;
+}
+
+main > p {
+  /* width: 85%; */
+}
+
+.quote2 {
+  /* background-color: #EAE2B7; */
+  width: 85%;
+}
