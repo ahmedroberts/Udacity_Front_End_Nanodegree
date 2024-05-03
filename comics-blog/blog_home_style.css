@@ -1,4 +1,10 @@
-@import url(blog_base_style.css);
+@import url(blog_main_style.css);
+@import url(blog_header_style.css);
+
+main img {
+  border-radius: 1rem;
+  filter: drop-shadow(0.5rem 0.5rem 0.75rem #D62828);
+}
 
 .hero_container {
   margin-top: 1.5rem;
@@ -109,6 +115,23 @@
 
 
 @media (max-width: 1000px) {
+  header {
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+
+  nav {
+    text-align: center;
+    padding: 1rem;
+  }
+
   .hero_container {
     display:grid;
     gap: 1.5rem;

@@ -1,0 +1,33 @@
+header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #F77F00;
+  background-color: #003049;
+}
+
+header h1 {
+  color: #F77F00;
+}
+
+header img {
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+header a {
+  border-radius: 1rem;
+}
+
+header .active {
+  color: #EAE2B7;
+  background-color: #003049;
+}
+
+nav {
+  width: 40rem;
+  text-align: right;
+  align-self: baseline;
+}
