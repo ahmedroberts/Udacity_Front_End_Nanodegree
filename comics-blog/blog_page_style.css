@@ -18,13 +18,28 @@ blockquote {
   font-family: 'Special Elite', cursive;
   position: relative;
   padding-left: 3rem;
-  border-left: 3px solid #D62828;;
+  border-left: 3px solid #D62828;
 }
 
 cite {
   line-height: 2rem;
   text-align: left;
   padding-left: 3rem;
+}
+
+li::marker {
+  color: #F77F00;
+  list-style-type: circle;
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style-type: '🤔';
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
 }
 
 .author_info {
@@ -57,4 +72,27 @@ cite {
 
 .top_lists > h2 {
   grid-column: span 2;
+  align-self: center;
+}
+
+.post_nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.post_nav {
+  align-items: center;
+  border-radius: 1rem;
+  padding: 0.25rem;
+  background-color: #eae2b7;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 0.9rem;
+}
+
+.post_nav:hover {
+  background: #eae2b7;
+  color: #f77f00;
 }
