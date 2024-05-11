@@ -1,14 +1,11 @@
 @import url(blog_main_style.css);
 @import url(blog_header_footer_style.css);
-@import url('https://fonts.googleapis.com/css2?family=Inter');
-
-/*
-https://coolors.co/003049-f77f00-d62828-eae2b7-d4e4bc
-*/
+@import url(social_share.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter");
 
 main img {
   border-radius: 1rem;
-  filter: drop-shadow(0.5rem 0.5rem 0.75rem #D62828);
+  filter: drop-shadow(0.5rem 0.5rem 0.75rem #d62828);
 }
 
 .hero_container {
@@ -19,7 +16,7 @@ main img {
   width: 90%;
   max-width: 1100px;
   margin-bottom: 1rem;
-  grid-template-areas: 
+  grid-template-areas:
     "top-left top-left top-right"
     "bottom-left ..... top-right"
     "bottom-left bottom-right bottom-right";
@@ -67,10 +64,14 @@ main img {
 .favorite_sites a {
   display: block;
   width: 90%;
-  border: #F77F00;
-  color: 2px dotted #D62828;
-  background-color: #EAE2B7;
-  
+  border: #f77f00;
+  color: 2px dotted #d62828;
+  background-color: #eae2b7;
+}
+
+.articles_head {
+  display: flex;
+  justify-content: space-between;
 }
 
 .supers_list {
@@ -116,17 +117,16 @@ main img {
   margin-top: 1rem;
 }
 
-
 @media (max-width: 1000px) {
   .hero_container {
-    display:grid;
+    display: grid;
     gap: 1.5rem;
     grid-template-areas:
       "bottom-left"
       "top-left"
       "bottom-right"
       "top-right";
-      justify-items: center;
+    justify-items: center;
   }
 
   .hero_container img {

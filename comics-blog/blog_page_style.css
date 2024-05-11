@@ -1,10 +1,7 @@
 @import url(blog_main_style.css);
 @import url(blog_header_footer_style.css);
-@import url('https://fonts.googleapis.com/css?family=Special+Elite');
-
-/*
-https://coolors.co/003049-f77f00-d62828-eae2b7-d4e4bc
-*/
+@import url(social_share.css);
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 main {
   display: flex;
@@ -15,10 +12,10 @@ main {
 }
 
 blockquote {
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   position: relative;
   padding-left: 3rem;
-  border-left: 3px solid #D62828;
+  border-left: 3px solid #d62828;
 }
 
 cite {
@@ -28,14 +25,14 @@ cite {
 }
 
 li::marker {
-  color: #F77F00;
+  color: #f77f00;
   list-style-type: circle;
   line-height: 1.5rem;
   font-size: 1.2rem;
 }
 
 ul {
-  list-style-type: '🤔';
+  list-style-type: "🤔";
 }
 
 ol {
