@@ -36,3 +36,15 @@
  
  
 // Add your code here
+/* 
+  - firstName
+ *     - interest
+ *     - hobby
+`awesomeMessage` vari
+ */
+const firstName = 'Ahmed';
+const interest = 'anime';
+const hobby = 'read books, comics, and anime';
+
+let awesomeMessage = "Hi my name is ___. I love __. In my spare time I likt to ___."
+console.log(awesomeMessage);

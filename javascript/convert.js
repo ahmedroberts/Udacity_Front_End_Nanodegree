@@ -23,6 +23,7 @@
  
 
 const celsius = 12;
-const fahrenheit = /* convert celsius to fahrenheit here */
+// const fahrenheit = /* convert celsius to fahrenheit here */
+const fahrenheit = celsius * 1.8 + 32;
 
-console.log(/* print out result here */);
+console.log(fahrenheit);

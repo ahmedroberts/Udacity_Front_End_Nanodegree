@@ -9,5 +9,6 @@
  * 3. Your poem should match the famous haiku poem
  */
 
-const haiku = /* concatenate the strings here */
+// const haiku = /* concatenate the strings here */
+const haiku = "Before the white chrysanthemum\nthe scissors hesitate\na moment."
 console.log(haiku);
