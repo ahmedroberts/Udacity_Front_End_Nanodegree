@@ -16,11 +16,11 @@
  
  
 // change the value of `number` to test your if...else statement
-const number = 2;
+const number = 2315267;
 
 // your code goes here
-if (/* your conditional goes here */) {
-    
-} else {
-
+if (number % 2 === 0) {
+  console.log("even");
+  } else {
+  console.log("odd");
 }

@@ -43,6 +43,7 @@ if (money > price) {
 }
 
 // ----------------------------------------------------------
+// else if
 const runner = "Kendyll";
 const position = 2;
 let medal;
@@ -59,6 +60,12 @@ if(position === 1) {
 
 console.log(runner + " received a " + medal + " medal.");
 // ----------------------------------------------------------
+// logical operators
+var colt = "not busy";
+var weather = "nice";
 
+if (colt === "not busy" && weather === "nice") {
+  console.log("go to the park");
+}
 
 // ----------------------------------------------------------

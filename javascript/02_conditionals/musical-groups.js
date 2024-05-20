@@ -8,6 +8,25 @@
  */
  
 // change the value of `musicians` to test your conditional statements
-const musicians = 1;
+const musicians = 3;
 
 // your code goes here
+let output;
+
+if(0 == musicians){
+  output = "not a group";
+} else if(1 == musicians) {
+  output = "solo";
+} else if(2 == musicians) {
+  output = "duet";
+} else if(3 == musicians) {
+  output = "trio";
+} else if(4 == musicians) {
+  output = "quartet";
+} else if(4 < musicians) {
+  output = "this is a large group";
+} else {
+  output = "please enter an positive whole number";
+}
+
+console.log(output);

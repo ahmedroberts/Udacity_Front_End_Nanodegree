@@ -1,4 +1,4 @@
-<script>
+// Some JavaScript
 
 document.body.addEventListener('click', function () {
   var myParent = document.getElementsByTagName("h1")[0]; 
@@ -7,5 +7,3 @@ document.body.addEventListener('click', function () {
   myParent.appendChild(myImage);
   myImage.style.marginLeft = "160px";
 });
-
-</script>
