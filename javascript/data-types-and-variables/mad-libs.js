@@ -17,3 +17,14 @@
  */
  
  // your code goes here
+ const adjective1 = 'straightforward';
+ const adjective2 = 'freewheeling';
+ const adjective3 = 'gregarious';
+ const madLib = "The Intro to JavaScript course is "+
+  adjective1 +
+  ".\n James and Julia are so " +
+  adjective2 +
+  ".\n I cannot wait to work through the rest of this " + 
+  adjective3 +
+  " content!"
+console.log(madLib);

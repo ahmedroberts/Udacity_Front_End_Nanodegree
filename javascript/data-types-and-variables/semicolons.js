@@ -14,3 +14,7 @@
  */
 
 // your code goes here
+
+const thingOne = "King Ahmed";
+const thingTwo = "The 9th Raikage";
+console.log(thingOne + " " + thingTwo);

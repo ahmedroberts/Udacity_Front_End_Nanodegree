@@ -46,5 +46,5 @@ const firstName = 'Ahmed';
 const interest = 'anime';
 const hobby = 'read books, comics, and anime';
 
-let awesomeMessage = "Hi my name is ___. I love __. In my spare time I likt to ___."
+let awesomeMessage = "Hi my name is " + firstName + ". I love " + interest + "! In my spare time I like to " + hobby + "."
 console.log(awesomeMessage);

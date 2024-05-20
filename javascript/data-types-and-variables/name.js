@@ -11,3 +11,6 @@
  */
  
 // your code goes here
+
+const fullName = 'Ahmed Omar Roberts';
+console.log(fullName);

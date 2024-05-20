@@ -9,6 +9,14 @@
  * 3. Your poem should match the famous haiku poem
  */
 
-// const haiku = /* concatenate the strings here */
+// const haiku = 
+/* concatenate the strings here 
 const haiku = "Before the white chrysanthemum\nthe scissors hesitate\na moment."
-console.log(haiku);
+console.log(haiku);*/
+let test1 = ("3" > 10);
+test1 = (3 != "3");
+test1 = (true >= 0);
+test1 = (1 !== false);
+test1 = ("false" === 0);
+test1 = (3 === 3);
+console.log(test1);
