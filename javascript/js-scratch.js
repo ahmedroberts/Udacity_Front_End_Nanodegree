@@ -69,3 +69,21 @@ if (colt === "not busy" && weather === "nice") {
 }
 
 // ----------------------------------------------------------
+const isGoing = true;
+/*
+let color;
+
+if (isGoing) {
+  color = "green";
+} else {
+  color = "red";
+}
+*/
+const color = isGoing ? "purple" : "orange";
+console.log('\n\t'+ color + '\n');
+
+// ----------------------------------------------------------
+let x = 4; 
+let y = 3; 
+const equation = (x + y) > 6 ? 2*x : 2*y ;
+console.log(equation);
