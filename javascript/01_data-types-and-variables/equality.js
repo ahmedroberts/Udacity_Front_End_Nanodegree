@@ -10,5 +10,7 @@
  */
  
 // fix the right side of the expression
-const answer = "ALL Strings are CrEaTeD equal" == "All STRINGS are CrEaTED Equal";
+let answer = "ALL Strings are CrEaTeD equal" == "All STRINGS are CrEaTED Equal";
+console.log(answer);
+answer = "ALL Strings are CrEaTeD equal" == "ALL Strings are CrEaTeD equal";
 console.log(answer);
