@@ -9,8 +9,10 @@
  * - Your code should print `\"hahahahahahahahahaha!\"` by calling the `laugh()`
  */
 
-// your code goes here
+function laugh() {
+  return "hahahahahahahahahaha!";
+}
 
 
 // test your code by logging out the returned value
-console.log(/* call the laugh function */);
+console.log(laugh());
