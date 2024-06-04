@@ -11,7 +11,10 @@
  */
 
 
-// your code goes here
+function cry(){
+  const tears = 'boohoo!';
+  return tears;
+}
 
 
 // test your solution
