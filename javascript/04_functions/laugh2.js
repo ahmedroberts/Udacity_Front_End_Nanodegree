@@ -9,6 +9,14 @@
  */
 
 // your code goes here
+function laugh(num) {
+  let hahas = '';
+  for (i = 1; i <= num; i++){
+    hahas += 'ha';
+  }
+  hahas += '!';
+  return hahas;
+}
 
 
 

@@ -10,7 +10,8 @@
  */
 
 function laugh() {
-  return "hahahahahahahahahaha!";
+  const sound = "hahahahahahahahahaha!";
+  return sound;
 }
 
 
